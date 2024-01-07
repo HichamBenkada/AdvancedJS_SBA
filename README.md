@@ -9,18 +9,27 @@ gitHub Link: https://github.com/HichamBenkada/AdvancedJS_SBA.git
 
 ## Introduction:
 
-This assessment measures your capability to implement advanced JavaScript tools and features in a practical manner. You have creative freedom in the topic, material, and purpose of the web application you will be developing, so have fun with it! However, remember to plan the scope of your project to the timeline you have been given.
-
-This Project is an advanced Javascript skill based assessment to showcase my capabilities to implement 
-
-
-Use asynchronous JavaScript tools to build a responsive web application.
-Demonstrate understanding of the JavaScript event loop.
-Generate asynchronous code using Promises and async/await syntax.
-Use fetch and/or Axios to interact with an external web API.
-Organize files using modules and imports.
+This Project is an advanced Javascript skill based assessment to showcase my capabilities to implement advanced JavaScript tools and features includeing web API data to create a responsive web application that implements the use Promises and async/await syntax, use fetch and/or Axios to interact with an external web API, and organize files using modules and imports. 
 
 ## Objectives:
 
+My goal is to create a Joke application that generate random jokes and memes using HumorAPI, Link:https://humorapi.com/docs/
 
 ## Application layout:
+#### Index.html:
+This HTML file holds the application layout
+#### styles.css:
+This Style file holds the styles of the application in addition to bootstrap
+#### script.js:
+This file is the main script of the application which includes:
+###### variables and functions
+###### variables and functions
+#### utils.js:
+This file is the main script of the application which includes:
+###### variables and functions
+###### variables and functions
+#### nav.js:
+This is a navigation script file of the application which holdes
+###### variables and functions
+the drop manue
+###### variables and functions
