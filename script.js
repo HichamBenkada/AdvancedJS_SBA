@@ -1,46 +1,27 @@
-console.log("Welcome to Advanced JavaScript Project")
-import { dropdownManu } from "./nav";
+console.log("Welcome to Advanced JavaScript Project");
 
 const app = document.getElementById("app");
+const nav = document.getElementById("nav");
 
+app.textContent +=
+  " Feel free to discover the funniest jokes and memes of all time, save your favorets and post your own.";
 
-app.appendChild(document.createElement("div")).innerHTML = dropdownManu;
+app.style.textAlign = "left";
 
+//navigation bar
+nav.innerHTML = `
+`;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const btn = document.querySelectorAll("button");
+nav.addEventListener("click", (e) => {
+  btn.classList.remove("active");
+  console.log(e.target);
+});
 
 // const getFileStream = async (url) => {
 //     // implementation
 //   };
-  
+
 //   (async () => {
 //     document.body.style.textAlign = "center"
 //     app.style.width = "50%",
