@@ -17,6 +17,8 @@ axios.defaults.headers.common['x-api-key'] = API_KEY;
 
 
 async function getRandomJoke(){
-    const joke = await axios.get('/jokes/random').then((res)=>console.log(res.data))
+    const joke = await axios.get('/jokes/random').then((res)=>{console.log(res.data)
+        app.textContent = res.data.joke
+    app.style.background = "lightgreen"})
 }
 getRandomJoke()
