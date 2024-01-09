@@ -37,7 +37,7 @@ button:hover{
     font-weight: bold;
 }
 
-#icons{
+.icons{
     display:flex; justify-content:space-around;align-items:center;
 }
 .hide{

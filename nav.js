@@ -1,4 +1,4 @@
-import { btns, JokeHandler } from "./script.js";
+import { btns, JokesHandler } from "./script.js";
 console.log("nav! is linked");
 
 // clear active class from the btns
@@ -23,8 +23,8 @@ function btnHandler(e) {
   const clickedBtn = e.target.outerText;
   if(clickedBtn==="Jokes"){
     console.log(clickedBtn);
-    //Generate a random joke
-    JokeHandler();
+    //Generate a random jokes
+    JokesHandler();
   } else if(clickedBtn==="Memes"){
     console.log(clickedBtn);
     //do this
