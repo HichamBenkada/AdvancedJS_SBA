@@ -7,6 +7,8 @@ Date Submitted: 01/08/2025
 
 gitHub Link: https://github.com/HichamBenkada/AdvancedJS_SBA.git
 
+![Alt text](../SBA.PNG)
+
 ## Introduction:
 
 This Project is an advanced Javascript skill based assessment to showcase my capabilities to implement advanced JavaScript tools and features includeing web API data to create a responsive web application that implements the use Promises and async/await syntax, use fetch and/or Axios to interact with an external web API, and organize files using modules and imports. 

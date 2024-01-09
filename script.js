@@ -1,6 +1,5 @@
 console.log("Welcome to Advanced JavaScript Project");
 
-
 /**
  * script
  */
@@ -8,7 +7,6 @@ console.log("Welcome to Advanced JavaScript Project");
 export const content = document.getElementById("content");
 export const btns = document.querySelectorAll("button");
 const iconEl = document.querySelector(".icons");
-
 
 const API_KEY = "66dfe78e14784d349f96980de7b0f3c1";
 
@@ -25,22 +23,17 @@ const memes = [];
 export const fav = [];
 export let generatedObj;
 
-
-
-
 //generate random joke
 export async function JokesHandler() {
-  try {
-    const req = await axios.get("/jokes/random").then((res) => {
+  //Making a request using Promise logic
+  await axios.get("/jokes/random")
+  .then((res) => {
       console.log(res.data);
       generatedObj = res.data;
       app.style.background = "lightgreen";
       content.textContent = `${generatedObj.joke}`;
-      iconEl.classList.remove("hide")
-      
-
-    });
-  } catch (err) {
+      iconEl.classList.remove("hide");
+    }).catch((err) => {
     console.error(err);
-  }
+    });
 }
