@@ -10,9 +10,7 @@ h1{
     width: 100%;
     text-align: center;
 }
-.nav{
-    margin:1% auto
-}
+
 #app {
     border: 1px solid lightblue;
     border-radius: 10px;
@@ -23,6 +21,23 @@ h1{
     height: 100%;
 }
 
+i{
+    color:rgba(255,0,0,0.25)
+}
+
+i:hover {
+    border:1px solid blue;
+    background-color: lightblue;
+}
+
 button:hover{
-    background-color:cornsilk
+    background-color:rgba(255,255,255,0.50);
+    font-weight: bold;
+}
+
+#icons{
+    display:flex; justify-content:space-around;align-items:center;
+}
+.hide{
+    display: none;
 }
